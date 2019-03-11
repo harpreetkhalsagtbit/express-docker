@@ -1,6 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
+console.log(`Node version ${process.version} is running`)
 
 app.get('/', (req, res) => {
     return res.send('Hello world');

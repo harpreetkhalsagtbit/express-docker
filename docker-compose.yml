@@ -11,3 +11,4 @@ services:
      - PORT=3000
     volumes: # Attach local book data directory
       - ./:/usr/src/app
+    command: npm run install-start

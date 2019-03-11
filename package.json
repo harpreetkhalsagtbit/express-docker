@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
+    "install-start": "npm install && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

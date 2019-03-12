@@ -11,4 +11,6 @@ services:
     volumes: # Attach local book data directory
       - ./:/usr/src/app
       - /usr/src/app/node_modules
-    command: npm start
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
